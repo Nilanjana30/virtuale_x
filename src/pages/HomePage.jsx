@@ -24,7 +24,7 @@ function HomePage() {
   const [activeItem, setActiveItem] = useState(null);
 
   return (
-    <div className="h-screen flex items-start justify-center">
+    <div className="flex items-start justify-center h-screen">
       <div
         className="flex justify-center items-center h-full w-3/4 bg-cover bg-no-repeat bg-center bg-[#717d88]"
         style={{
@@ -53,7 +53,12 @@ function HomePage() {
                 setActive(item.img);
               }}
             >
-              <img src={item.assetImg} alt="asset" loading="lazy" />
+              <img
+                src={item.assetImg}
+                alt="asset"
+                loading="lazy"
+                about="assetImage"
+              />
             </div>
           );
         })}
