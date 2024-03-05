@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import Camera from "../assets/camera.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function HomePage() {
   const data = [
@@ -51,7 +53,7 @@ function HomePage() {
           transition: "background-image 0.5s ease",
         }}
       >
-        <img
+        <LazyLoadImage
           src={Camera}
           alt="Camera Icon"
           className="w-20 h-20 pb-5 cursor-pointer"
@@ -84,7 +86,7 @@ function HomePage() {
                 setActive(item);
               }}
             >
-              <img src={item.assetImg} alt="asset" />
+              <img src={item.assetImg} alt="asset" loading="lazy" />
             </div>
           );
         })}
