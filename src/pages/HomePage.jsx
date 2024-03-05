@@ -27,8 +27,8 @@ const HomePage = () => {
       assetImg: require("../assets/obj/obj2.png"),
       angles: [
         require("../assets/Sofa/ScreenShot00012.png"),
-        require("../assets/SofaAngle_1/HighresScreenshot00025.png"),
-        require("../assets/SofaAngle_2/HighresScreenshot00024.png"),
+        require("../assets/SofaAngle_1/HighresScreenshot00026.png"),
+        require("../assets/SofaAngle_2/HighresScreenshot00027.png"),
       ],
     },
 
@@ -37,8 +37,8 @@ const HomePage = () => {
       assetImg: require("../assets/obj/obj3.png"),
       angles: [
         require("../assets/Sofa/ScreenShot00014.png"),
-        require("../assets/SofaAngle_1/HighresScreenshot00026.png"),
-        require("../assets/SofaAngle_2/HighresScreenshot00027.png"),
+        require("../assets/SofaAngle_1/HighresScreenshot00025.png"),
+        require("../assets/SofaAngle_2/HighresScreenshot00024.png"),
       ],
     },
   ];
